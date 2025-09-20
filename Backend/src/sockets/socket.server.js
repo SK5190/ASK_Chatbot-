@@ -9,7 +9,7 @@ const { createMemory, queryMemory } = require("../service/vector.service");
 function initSocketServer(httpServer) {
   const io = new Server(httpServer, {
     cors: {
-      origin: ["http://localhost:5173", "http://localhost:3000"],
+      origin: ["http://localhost:5173", "https://ask-chatbot.onrender.com"],
       methods: ["GET", "POST"],
       credentials: true
     }

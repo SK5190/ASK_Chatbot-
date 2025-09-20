@@ -1,8 +1,8 @@
 // Configuration file for the frontend application
 export const config = {
   // API Configuration
-  API_BASE_URL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api',
-  SOCKET_URL: import.meta.env.VITE_SOCKET_URL || 'http://localhost:3000',
+  API_BASE_URL: import.meta.env.VITE_API_BASE_URL || 'https://ask-chatbot.onrender.com/api',
+  SOCKET_URL: import.meta.env.VITE_SOCKET_URL || 'https://ask-chatbot.onrender.com',
   
   // Debug mode
   DEBUG: import.meta.env.VITE_DEBUG === 'true' || false,
